@@ -270,8 +270,8 @@ nav ul, nav {
 @media (min-width: 1024px) {
 
   :root {
-    --font-title-1024:3rem;
-    --font-text-1024:1.2rem;
+    --font-title:3rem;
+    --font-text:1.2rem;
 
   }
 
@@ -303,12 +303,10 @@ header .container {
 .page1 .content1 img {
   width: 40rem;
   height:44rem;
+
+  margin-left: 15rem;
 }
 
-.texts .title1 h2 {font-size: 5rem}
-.title2 h2, .title3 h2, .title4 h2, .title5 h2 {
-  font-size: var(--font-title-1024);
-}
 
 .page1 p {font-size: 1.8rem}
 
