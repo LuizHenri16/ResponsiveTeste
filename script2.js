@@ -5,7 +5,7 @@ menuBurg.addEventListener('click', () => {
   menuSec.classList.toggle('show')
 })
 
-const links = document.querySelectorAll('nav ul li a', 'main')
+const links = document.querySelectorAll('nav ul li a')
 for (const link of links) {
   link.addEventListener('click',  () => {
     menuSec.classList.remove('show')
